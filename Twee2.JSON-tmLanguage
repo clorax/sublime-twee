@@ -67,7 +67,7 @@
         "1": { "name": "comment.block.punctuation.definition.function.end.twee2" }
       },
       "patterns": [
-        { "match": "(\\b(back|choice|display|actions|pop|print|set|if|else|endif|elseif|remember|silently|endsilently|mask|for|nobr|switch|case)\\b)",
+        { "match": "(\\b(back|choice|display|actions|pop|print|set|unset|if|else|endif|elseif|remember|silently|endsilently|mask|for|nobr|switch|case)\\b)",
           "name": "keyword.control.twee2"
         },
         { "match": "\\$\\b([A-Za-z_][A-Za-z0-9_]*)\\b",
@@ -76,7 +76,7 @@
         { "match": "\\_\\b([A-Za-z_][A-Za-z0-9_]*)\\b",
           "name": "variable.parameter.twee2"
         },
-        { "match": "\\b(eq|neq|gt|gte|lt|lte|and|or|not|push|either)\\b",
+        { "match": "\\b(eq|neq|gt|gte|lt|lte|and|or|not|push|either|random)\\b",
           "name": "keyword.operator.twee2"
         },
         { "match": "('[^']*')",
