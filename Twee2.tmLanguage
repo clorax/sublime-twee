@@ -213,13 +213,13 @@
 					<key>match</key>
 					<string>\b\_([A-Za-z_][A-Za-z0-9_]*)\b</string>
 					<key>name</key>
-					<string>support.other.variable.twee2</string>
+					<string>variable.parameter.twee2</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>\b(eq|neq|gt|gte|lt|lte|and|or|not|push|either)\b</string>
 					<key>name</key>
-					<string>keyword.operator.twee2</string>
+					<string>variable.parameter.twee2</string>
 				</dict>
 				<dict>
 					<key>match</key>
