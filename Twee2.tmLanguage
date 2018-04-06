@@ -4,10 +4,10 @@
 <dict>
 	<key>fileTypes</key>
 	<array>
-		<string>tw</string>
+		<string>tw2</string>
 	</array>
 	<key>name</key>
-	<string>Twee</string>
+	<string>Twee2</string>
 	<key>patterns</key>
 	<array>
 		<dict>
@@ -18,11 +18,11 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>comment.block.punctuation.definition.html.begin.twee</string>
+					<string>comment.block.punctuation.definition.html.begin.twee2</string>
 				</dict>
 			</dict>
 			<key>contentName</key>
-			<string>text.html.twee</string>
+			<string>text.html.twee2</string>
 			<key>end</key>
 			<string>(&lt;/html&gt;)</string>
 			<key>endCaptures</key>
@@ -30,11 +30,11 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>comment.block.punctuation.definition.html.end.twee</string>
+					<string>comment.block.punctuation.definition.html.end.twee2</string>
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>meta.html.twee</string>
+			<string>meta.html.twee2</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -51,35 +51,35 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>storage.type.twee</string>
+					<string>storage.type.twee2</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>comment.block.entity.name.type.css.twee</string>
+					<string>comment.block.entity.name.type.css.twee2</string>
 				</dict>
 				<key>3</key>
 				<dict>
 					<key>name</key>
-					<string>comment.block.punctuation.definition.tag.begin.twee</string>
+					<string>comment.block.punctuation.definition.tag.begin.twee2</string>
 				</dict>
 				<key>4</key>
 				<dict>
 					<key>name</key>
-					<string>storage.modifer.twee</string>
+					<string>storage.modifer.twee2</string>
 				</dict>
 				<key>5</key>
 				<dict>
 					<key>name</key>
-					<string>comment.block.punctuation.definition.tag.end.twee</string>
+					<string>comment.block.punctuation.definition.tag.end.twee2</string>
 				</dict>
 			</dict>
 			<key>contentName</key>
-			<string>source.embeded.css.twee</string>
+			<string>source.embeded.css.twee2</string>
 			<key>end</key>
 			<string>^(?=::)</string>
 			<key>name</key>
-			<string>meta.css.twee</string>
+			<string>meta.css.twee2</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -96,35 +96,35 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>storage.type.twee</string>
+					<string>storage.type.twee2</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>comment.block.entity.name.type.js.twee</string>
+					<string>comment.block.entity.name.type.js.twee2</string>
 				</dict>
 				<key>3</key>
 				<dict>
 					<key>name</key>
-					<string>comment.block.punctuation.definition.tag.begin.twee</string>
+					<string>comment.block.punctuation.definition.tag.begin.twee2</string>
 				</dict>
 				<key>4</key>
 				<dict>
 					<key>name</key>
-					<string>storage.modifer.twee</string>
+					<string>storage.modifer.twee2</string>
 				</dict>
 				<key>5</key>
 				<dict>
 					<key>name</key>
-					<string>comment.block.punctuation.definition.tag.end.twee</string>
+					<string>comment.block.punctuation.definition.tag.end.twee2</string>
 				</dict>
 			</dict>
 			<key>contentName</key>
-			<string>source.embeded.js.twee</string>
+			<string>source.embeded.js.twee2</string>
 			<key>end</key>
 			<string>^(?=::)</string>
 			<key>name</key>
-			<string>meta.js.twee</string>
+			<string>meta.js.twee2</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -139,38 +139,38 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>storage.type.twee</string>
+					<string>storage.type.twee2</string>
 				</dict>
 				<key>3</key>
 				<dict>
 					<key>name</key>
-					<string>support.class.passage.twee</string>
+					<string>support.class.passage.twee2</string>
 				</dict>
 				<key>4</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.function.passage.twee</string>
+					<string>entity.name.function.passage.twee2</string>
 				</dict>
 				<key>6</key>
 				<dict>
 					<key>name</key>
-					<string>comment.block.punctuation.definition.tag.begin.twee</string>
+					<string>comment.block.punctuation.definition.tag.begin.twee2</string>
 				</dict>
 				<key>7</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.tag.twee</string>
+					<string>entity.name.tag.twee2</string>
 				</dict>
 				<key>8</key>
 				<dict>
 					<key>name</key>
-					<string>comment.block.punctuation.definition.tag.end.twee</string>
+					<string>comment.block.punctuation.definition.tag.end.twee2</string>
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>(^::)\s*((Start|StoryTitle|StorySubtitle|StoryAuthor|StoryMenu)|([^\[]*))\s*((\[)([^\]]*)(\]))*</string>
+			<string>(^::)\s*((Start|StoryTitle|StorySubtitle|StoryAuthor|StoryMenu|StoryInit|Configuration|StoryIncludes)|([^\[]*))\s*((\[)([^\]]*)(\]))*</string>
 			<key>name</key>
-			<string>meta.passage.twee</string>
+			<string>meta.passage.twee2</string>
 		</dict>
 		<dict>
 			<key>begin</key>
@@ -180,7 +180,7 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>comment.block.punctuation.definition.function.begin.twee</string>
+					<string>comment.block.punctuation.definition.function.begin.twee2</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -190,48 +190,54 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>comment.block.punctuation.definition.function.end.twee</string>
+					<string>comment.block.punctuation.definition.function.end.twee2</string>
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>meta.function.twee</string>
+			<string>meta.function.twee2</string>
 			<key>patterns</key>
 			<array>
 				<dict>
 					<key>match</key>
-					<string>(back|choice|display|actions|pop|print|set|if|else|endif|remember|silently|endsilently|mask)</string>
+					<string>\b(back|choice|display|actions|pop|print|set|if|else|endif|elseif|remember|silently|endsilently|mask|for|nobr|switch|case)\b</string>
 					<key>name</key>
-					<string>keyword.control.twee</string>
+					<string>keyword.control.twee2</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>\$\b([A-Za-z_][A-Za-z0-9_]*)\b</string>
 					<key>name</key>
-					<string>variable.parameter.twee</string>
+					<string>support.other.variable.twee2</string>
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>\b(eq|neq|gt|gte|lt|lte|and|or|not)\b</string>
+					<string>\b\_([A-Za-z_][A-Za-z0-9_]*)\b</string>
 					<key>name</key>
-					<string>keyword.operator.twee</string>
+					<string>support.other.variable.twee2</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>\b(eq|neq|gt|gte|lt|lte|and|or|not|push|either)\b</string>
+					<key>name</key>
+					<string>keyword.operator.twee2</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>('[^']*')</string>
 					<key>name</key>
-					<string>string.quoted.single.twee</string>
+					<string>string.quoted.single.twee2</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>("[^"]*")</string>
 					<key>name</key>
-					<string>string.quoted.double.twee</string>
+					<string>string.quoted.double.twee2</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>(/[^/]*/)</string>
 					<key>name</key>
-					<string>string.regexp.twee</string>
+					<string>string.regexp.twee2</string>
 				</dict>
 				<dict>
 					<key>match</key>
@@ -279,11 +285,11 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>comment.block.punctuation.definition.link.begin.twee</string>
+					<string>comment.block.punctuation.definition.link.begin.twee2</string>
 				</dict>
 			</dict>
 			<key>contentName</key>
-			<string>entity.name.function.link.twee</string>
+			<string>entity.name.function.link.twee2</string>
 			<key>end</key>
 			<string>(\]\])</string>
 			<key>endCaptures</key>
@@ -291,11 +297,11 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>comment.block.punctuation.definition.link.end.twee</string>
+					<string>comment.block.punctuation.definition.link.end.twee2</string>
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>meta.markup.underline.link.twee</string>
+			<string>meta.markup.underline.link.twee2</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -304,12 +310,12 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>comment.block.punctuation.definition.link.divider.twee</string>
+							<string>comment.block.punctuation.definition.link.divider.twee2</string>
 						</dict>
 						<key>2</key>
 						<dict>
 							<key>name</key>
-							<string>entity.other.attribute-name.link.twee</string>
+							<string>entity.other.attribute-name.link.twee2</string>
 						</dict>
 					</dict>
 					<key>match</key>
@@ -325,21 +331,21 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>comment.block.punctuation.definition.image.begin.twee</string>
+					<string>comment.block.punctuation.definition.image.begin.twee2</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>support.type.image.twee</string>
+					<string>support.type.image.twee2</string>
 				</dict>
 				<key>3</key>
 				<dict>
 					<key>name</key>
-					<string>comment.block.punctuation.definition.image.divider.twee</string>
+					<string>comment.block.punctuation.definition.image.divider.twee2</string>
 				</dict>
 			</dict>
 			<key>contentName</key>
-			<string>entity.other.attribute-name.image.twee</string>
+			<string>entity.other.attribute-name.image.twee2</string>
 			<key>end</key>
 			<string>(\]\])</string>
 			<key>endCaptures</key>
@@ -347,18 +353,18 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>comment.block.punctuation.definition.image.end.twee</string>
+					<string>comment.block.punctuation.definition.image.end.twee2</string>
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>meta.markup.other.image.twee</string>
+			<string>meta.markup.other.image.twee2</string>
 			<key>patterns</key>
 			<array>
 				<dict>
 					<key>match</key>
 					<string>\b\|\b|\b\]\[\b</string>
 					<key>name</key>
-					<string>comment.block.punctuation.definition.image.divider.twee</string>
+					<string>comment.block.punctuation.definition.image.divider.twee2</string>
 				</dict>
 			</array>
 		</dict>
@@ -370,11 +376,11 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>comment.block.punctuation.definition.begin.twee</string>
+					<string>comment.block.punctuation.definition.begin.twee2</string>
 				</dict>
 			</dict>
 			<key>contentName</key>
-			<string>comment.block.twee</string>
+			<string>comment.block.twee2</string>
 			<key>end</key>
 			<string>(%/)</string>
 			<key>endCaptures</key>
@@ -382,16 +388,43 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>comment.block.punctuation.definition.end.twee</string>
+					<string>comment.block.punctuation.definition.end.twee2</string>
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>meta.comment.block.twee</string>
+			<string>meta.comment.block.twee2</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>(/\*)</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>comment.block.punctuation.definition.begin.twee2</string>
+				</dict>
+			</dict>
+			<key>contentName</key>
+			<string>comment.block.twee2</string>
+			<key>end</key>
+			<string>(\*/)</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>comment.block.punctuation.definition.end.twee2</string>
+				</dict>
+			</dict>
+			<key>name</key>
+			<string>meta.comment.block.twee2</string>
 		</dict>
 	</array>
 	<key>scopeName</key>
-	<string>text.twee</string>
+	<string>text.twee2</string>
 	<key>uuid</key>
-	<string>a30284bd-5e16-49c8-9855-e095bcfe9c51</string>
+	<string>7f4c2437-3029-47c8-889f-8231d8a42445</string>
+
 </dict>
 </plist>
