@@ -1,9 +1,9 @@
-Sublime Twee
-============
+Sublime Twee2
+=============
 
-*twee* source code syntax highlighting for Sublime Text.
+*Twee2* *SugarCube* source code syntax highlighting for Sublime Text, based on [monospaced's sublime-twee](https://github.com/monospaced/sublime-twee).
 
-*twee* is a command-line tool for writing hypertext stories…
+*Twee2* is a command-line tool for writing hypertext stories…
 
 * [twee documentationn](http://gimcrackd.com/etc/doc/)
 
@@ -17,8 +17,11 @@ The easiest way to install this is with [Package Control](https://packagecontrol
 
 * If you just went and installed Package Control, you probably need to restart Sublime Text before doing this next bit.
 * Bring up the Command Palette (Command+Shift+p on OS X, Control+Shift+p on Linux/Windows).
+* Select "Package Control: Add Repository"
+* Enter "https://github.com/clorax/sublime-twee2"
+* Bring up the Command Palette again
 * Select "Package Control: Install Package" (it'll take a few seconds)
-* Select Twee when the list appears.
+* Select sublime-twee2 when the list appears (or type "twee2" and press enter)
 * Package Control will automatically keep Twee up to date with the latest version.
 
 ### Git
@@ -31,4 +34,4 @@ If you need to find the Packages directory, access the Console (Control+`) and e
 
 ### Manual
 
-Drop the Twee.tmLanguage file into your Packages folder (Preferences > Browse Packages…).
+Drop the Twee2.tmLanguage file into your Packages folder (Preferences > Browse Packages…).
