@@ -157,11 +157,11 @@
       "contentName": "comment.block.twee2"
     },
     { "name": "meta.comment.block.twee2",
-      "begin": "(/\*)",
+      "begin": "(/*)",
       "beginCaptures": {
         "1": { "name": "comment.block.punctuation.definition.begin.twee2" }
       },
-      "end": "(\*/)",
+      "end": "(*/)",
       "endCaptures": {
         "1": { "name": "comment.block.punctuation.definition.end.twee2" }
       },
